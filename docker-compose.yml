@@ -1,0 +1,9 @@
+version:2.1
+
+services:
+  Squid_http_proxy:
+    image: nikistochka/squid_http_proxy:3.9
+    ports:
+      - ${PROXY_PORT}:${PROXY_PORT}/tcp
+    restart: always
+  
