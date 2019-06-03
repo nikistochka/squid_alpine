@@ -8,5 +8,5 @@ Don't forget to download squid.conf
 Run docker container with squid http proxy server:
 
 ```
-docker run -d --name squid_alpine --restart always -p 3128:3128/tcp nikistochka/squid_alpine:1.0
+docker run -d --name squid_alpine --restart unless-stopped -p 3128:3128/tcp nikistochka/squid_alpine:1.0
 ```
