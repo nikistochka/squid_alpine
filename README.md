@@ -3,7 +3,7 @@
 ### Getting started
 
 ### Important:
-###Don't forget to download squid.conf
+### Don't forget to download squid.conf
 
 Run docker container with squid http proxy server:
 
