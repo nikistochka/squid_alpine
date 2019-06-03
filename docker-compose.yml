@@ -5,5 +5,5 @@ services:
     image: nikistochka/squid_alpine:1.0
     ports:
       - ${PROXY_PORT}:${PROXY_PORT}/tcp
-    restart: always
+    restart: unless-stopped
   
