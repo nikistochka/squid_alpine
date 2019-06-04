@@ -1,9 +1,9 @@
-## Squid http proxy on Alpine:3.9 image
+## Squid http proxy based on Alpine:3.9
 
 ### Getting started
 
 Important:
-Don't forget to download squid.conf
+- Don't forget to download squid.conf
 
 Run docker container with squid http proxy server:
 
